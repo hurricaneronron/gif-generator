@@ -47,7 +47,7 @@ function displayGifs() {
 function renderButtons() {
   $("#buttons-view").empty();
   for (var i = 0; i < shows.length; i++) {
-    var a = $("<button type='button' class='btn btn-success btn-small'>")
+    var a = $("<button type='button' class='btn btn-secondary btn-small'>")
     a.addClass("show")
     a.attr("data-name", shows[i])
     a.text(shows[i])
