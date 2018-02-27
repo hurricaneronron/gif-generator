@@ -1,0 +1,10 @@
+button,
+div,
+form,
+input {
+  margin: 5px;
+}
+
+#gifs-view img {
+  margin: 10px;
+}

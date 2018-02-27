@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GIPHY GIF Generator</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Rendered buttons will get dumped here  -->
+    <div class="row">
+      <div id="buttons-view" class="col-md-12 text-center"></div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <form id="show-form">
+      <p for="show-input">Add a TV Show</p>
+      <input type="text" id="show-input"><br>
+
+      <!-- Button triggers new category to be added -->
+      <input id="add-show" type="submit" value="Submit">
+    </form>
+    </div>
+    </div>
+
+    <!-- GIFs will get dumped Dere -->
+    <div class="row">
+    <div id="gifs-view" class="col-md-12"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
