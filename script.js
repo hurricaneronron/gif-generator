@@ -8,7 +8,7 @@ var shows = ["Parks and Recreation", "Community", "The Office", "New Girl", "Arc
 function displayGifs() {
 
   var search = $(this).attr("data-name")
-  var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=TPkknxWdQpkKRLv8i8ltWSEvO25tksP1&limit=10")
+  var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=TPkknxWdQpkKRLv8i8ltWSEvO25tksP1&limit=10")
 
   // GIPHY API
   xhr.done(function(data) { 
